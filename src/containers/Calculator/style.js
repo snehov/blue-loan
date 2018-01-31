@@ -10,7 +10,7 @@ export const SliderCont = styled(Slider)`
 
 export const CalcContainer = styled.div`
   width: 500px;
-  height: 240px;
+  height: 550px;
   background-color: #f8f8f8;
   border: 1px solid #8e8e8e;
   padding: 20px;
@@ -19,13 +19,10 @@ export const CalcName = styled.h2``
 
 export const Color = styled.span`
   color: black;
-  color: ${props => props.name === 'starsi' && '#79afc8'};
-  color: ${props => props.name === 'mladej' && '#66c080'};
 `
+/* background-color: ${props => props.name === 'type' && '#79afc8'}; */
 export const Button = styled.button`
   color: white;
-  background-color: ${props => props.name === 'starsi' && '#79afc8'};
-  background-color: ${props => props.name === 'mladej' && '#66c080'};
   padding: 10px 20px;
   font-size: 20px;
   border: 0px;

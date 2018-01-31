@@ -7,7 +7,7 @@ class Home extends React.Component {
       <Page>
         <h1>Loan calculator</h1>
         <Column>
-          <Caclutator version="mladej" title="calc" rate={0.0374} />
+          <Caclutator title="Calc" />
         </Column>
       </Page>
     )
